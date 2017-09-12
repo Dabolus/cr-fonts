@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'SC CCBackBeat';
+  src: url(SCCCBackBeat.eot);
+  src: url(SCCCBackBeat.eot?#iefix) format('embedded-opentype'),
+       url(SCCCBackBeat.woff2) format('woff2'),
+       url(SCCCBackBeat.woff) format('woff'),
+       url(SCCCBackBeat.ttf) format('truetype'),
+       url(SCCCBackBeat.svg#SCCCBackBeat) format('svg');
+  font-weight: 400;
+  font-style: normal;
+}

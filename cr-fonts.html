@@ -1,0 +1,31 @@
+<link rel="import" href="../polymer/polymer-element.html">
+<link rel="import" href="supercell-magic.html">
+<link rel="import" href="sc-ccbackbeat.html">
+
+<!-- Wrapper for Clash Royale fonts and styles for Polymer 2. -->
+<custom-style>
+  <style is="custom-style">
+    html {
+      --supercell-magic: {
+        font-family: 'Supercell Magic', sans-serif;
+      };
+
+      --sc-ccbackbeat: {
+        font-family: 'SC CCBackBeat', sans-serif;
+      };
+
+      --sc-title: {
+        @apply --supercell-magic;
+        font-size: 16px;
+        color: white;
+        text-shadow: -1px 2px 0 black, 0 2px 0 black, 1px 2px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+      };
+
+      --sc-message: {
+        @apply --sc-ccbackbeat;
+        font-size: 14px;
+        color: white;
+      };
+    }
+  </style>
+</custom-style>

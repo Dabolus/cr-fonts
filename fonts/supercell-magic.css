@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Supercell Magic';
+  src: url(Supercell-Magic.eot);
+  src: url(Supercell-Magic.eot?#iefix) format('embedded-opentype'),
+       url(Supercell-Magic.woff2) format('woff2'),
+       url(Supercell-Magic.woff) format('woff'),
+       url(Supercell-Magic.ttf) format('truetype'),
+       url(Supercell-Magic.svg#Supercell-Magic) format('svg');
+  font-weight: 400;
+  font-style: normal;
+}

@@ -1,0 +1,34 @@
+{
+  "name": "cr-fonts",
+  "version": "2.0.0",
+  "description": "Clash Royale font styles for Polymer 2.",
+  "authors": [
+    "Dabolus"
+  ],
+  "keywords": [
+    "web-components",
+    "polymer",
+    "clash",
+    "royale",
+    "fonts"
+  ],
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Dabolus/cr-fonts"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Dabolus/cr-fonts",
+  "main": "cr-fonts.html",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^2.0.0"
+  },
+  "devDependencies": {
+    "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^2.0.0",
+    "web-component-tester": "Polymer/web-component-tester#^6.0.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^1.0.0"
+  },
+  "resolutions": {
+    "polymer": "^2.0.0"
+  }
+}

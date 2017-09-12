@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+    <title>cr-fonts demo</title>
+
+    <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+
+    <link rel="import" href="../../iron-demo-helpers/demo-pages-shared-styles.html">
+    <link rel="import" href="../../iron-demo-helpers/demo-snippet.html">
+    <link rel="import" href="../cr-fonts.html">
+
+    <custom-style>
+      <style is="custom-style" include="demo-pages-shared-styles"></style>
+    </custom-style>
+  </head>
+  <body>
+    <div class="vertical-section-container centered">
+      <h3>Basic cr-fonts demo</h3>
+      <demo-snippet>
+        <template>
+          <custom-style>
+            <style is="custom-style">
+              h4 {
+                @apply --sc-title;
+              }
+              p {
+                @apply --sc-ccbackbeat;
+                color: #666;
+              }
+            </style>
+          </custom-style>
+
+          <h4>Example title</h4>
+          <p>Example paragraph</p>
+        </template>
+      </demo-snippet>
+    </div>
+  </body>
+</html>
